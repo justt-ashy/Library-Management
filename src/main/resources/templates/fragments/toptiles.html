@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<th:block th:fragment="tiles">
+    <div class="row" style="display: inline-block;">
+        <div class="tile_count">
+            <div class="col-md-2 col-sm-4 tile_stats_count">
+                <span class="count_top"><i class="fa fa-book"></i> Total Books</span>
+                <div class="count" th:text="${topTiles.totalBooks}"></div>
+            </div>
+            <div class="col-md-2 col-sm-4 tile_stats_count">
+                <span class="count_top"><i class="fa fa-list"></i> Total Categories</span>
+                <div class="count" th:text="${topTiles.totalCategories}"></div>
+            </div>
+        </div>
+    </div>
+</th:block>
+
+</body>
+</html>

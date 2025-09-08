@@ -1,0 +1,16 @@
+com\lms\service\IssuedBookService.class
+com\lms\service\CategoryService.class
+com\lms\model\Book.class
+com\lms\repository\CategoryRepository.class
+com\lms\controller\BookController.class
+com\lms\service\HomeService.class
+com\lms\model\IssuedBook.class
+com\lms\service\BookService.class
+com\lms\common\Constants.class
+com\lms\common\Constants$1.class
+com\lms\LmsApplication.class
+com\lms\repository\BookRepository.class
+com\lms\repository\IssuedBookRepository.class
+com\lms\controller\CategoryController.class
+com\lms\controller\HomeController.class
+com\lms\model\Category.class
